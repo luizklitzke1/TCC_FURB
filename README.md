@@ -10,7 +10,7 @@ Trabalho de Conclusão de Curso– 2025/1
 | lgklitzke@furb.br           | diegoskel@hotmail.com        | aureliof@furb.br             |
 
 
-![Exemplo](front/examples/deadlift_output.gif)
+![Exemplo](./front/examples/deadlift_output.gif)
 
 ## 📌 Objetivo
 A aplicação tem como objetivo oferecer uma **ferramenta de análise automática da execução de exercícios físicos** a partir de vídeos gravados com câmeras convencionais, auxiliando praticantes e profissionais da área na identificação de **erros técnicos e posturais** durante a realização dos movimentos.

@@ -174,8 +174,6 @@ openpose/
 openpose_build/
 
 # Ignorar por enquanto os arquivos de vídeo do output, porque ficam pesados demais pro Git e podem ser gerados novamente depois.
-# Vou upar posteriormente no Google Drive para manter = https://drive.google.com/drive/folders/1B-PXu16LTiYhh4D8h7DqRi4Gd3GCBHYU?usp=sharing
-
 output/**/*.mp4
 output_externo/**/*.mp4
 

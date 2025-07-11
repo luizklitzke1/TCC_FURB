@@ -1,4 +1,4 @@
-#Arquivo gerado pelo pipreqs, pode conter algumas dependências que não são utilizadas diretamente no código.
+#Arquivo gerado pelo pipreqs.
 
 #Caso tenha problemas ao rodar os recursos de CUDA com o PyTorch, verifique se a versão do CUDA instalada é compatível com a versão do PyTorch.
 #Para instalar o PyTorch com suporte a CUDA 11.8, use o seguinte comando:

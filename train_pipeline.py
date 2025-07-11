@@ -122,9 +122,6 @@ def detailed_model_eval(classifier, dataset, save_folder = None, timestamp = Non
         print(f"Matriz de confusão salva em {cm_filename}")
         
         # Gerar um relatório de erros: para cada erro, salvar o nome do arquivo, classe esperada e classe estimada
-    
-        # Mapeamento inverso para as classes (para escrever no arquivo)
-        inv_LABEL_MAP = {v: k for k, v in LABEL_MAP.items()}
         
         error_filename = os.path.join(save_folder, f"model_{timestamp}_classification_errors.txt")
         with open(error_filename, "w") as f:
@@ -132,8 +129,8 @@ def detailed_model_eval(classifier, dataset, save_folder = None, timestamp = Non
             
             for i in range(len(real_labels)):
                 if pred_labels[i] != real_labels[i]:
-                    true_class = inv_LABEL_MAP.get(real_labels[i])
-                    pred_class = inv_LABEL_MAP.get(pred_labels[i])
+                    true_class = INV_LABEL_MAP.get(real_labels[i])
+                    pred_class = INV_LABEL_MAP.get(pred_labels[i])
                     
                     f.write(f"Arquivo: {all_filenames[i]}, Real: {true_class}, Estimada: {pred_class}\n")
                     

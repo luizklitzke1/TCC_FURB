@@ -48,7 +48,7 @@ class TemporalGCN(nn.Module):
         
         return out
 
-# Classe de treinamento com suporte a CUDA
+# Classe de treinamento
 class TemporalGCNClassifier:
     def __init__(self,  out_channels, in_channels = 2, hidden_channels = 64, lr = 0.001, class_weights = None, early_stop_patience = 99, lr_scheduler_patience = 99):
         
